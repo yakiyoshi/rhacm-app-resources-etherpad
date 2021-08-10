@@ -1,0 +1,12 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: etherpad-route
+  labels:
+    app: etherpad
+spec:
+  defaultBackend:
+    service:
+      name: etherpad
+      port:
+        number: 9001
