@@ -7,12 +7,6 @@ metadata:
   labels:
     app: etherpad
 spec:
-  defaultBackend:
-    service:
-      name: etherpad
-      port:
-        number: 9001
-spec:
   rules:
   - host: etherpad.apps.hpetaocp.tk
     http:
