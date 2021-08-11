@@ -35,7 +35,7 @@ spec:
           value: ether
         - name: NODE_ENV
           value: development
-        image: quay.io/gpte-devops-automation/etherpad:1.8.14
+        image: quay.io/gpte-devops-automation/etherpad:1.8.13
         imagePullPolicy: Always
         name: etherpad
         ports:
