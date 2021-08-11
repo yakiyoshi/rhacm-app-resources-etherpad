@@ -34,8 +34,8 @@ spec:
         - name: DB_PASS
           value: ether
         - name: NODE_ENV
-          value: production
-        image: quay.io/gpte-devops-automation/etherpad:1.8.14
+          value: development
+        image: quay.io/gpte-devops-automation/etherpad:1.8.13
         imagePullPolicy: Always
         name: etherpad
         ports:
