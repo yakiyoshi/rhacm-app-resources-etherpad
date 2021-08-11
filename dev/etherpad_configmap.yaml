@@ -214,7 +214,7 @@ data:
       /*
       * The default text of a pad
       */
-      "defaultPadText" : "Welcome to the OpenTLC Etherpad!\n\nENVIRONMENT=DEV!\n",
+      "defaultPadText" : "Welcome to the OpenTLC Etherpad!\n\nENVIRONMENT=${NODE_ENV}!\n\nHOSTNAME=${HOSTNAME}",
 
       /*
       * Default Pad behavior.
